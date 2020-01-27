@@ -1,0 +1,47 @@
+body {
+    background-image: url('casino_back.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(104, 13, 13);
+}
+
+.button button {
+    background-color: rgb(117, 20, 20);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    font-size: 20px;
+    position: sticky;
+}
+
+.button button:hover {
+    background-color: rgb(82, 6, 6);
+}
+
+.game-dice-roll input {
+    position: fixed;
+    left: 60%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;;
+    padding: 5px;
+    font-size: 30px;
+    color: black;
+    text-align: right;
+}
+
+.dice-area {
+    overflow: auto;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    width: 400px
+}
+
+.game-dice img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 75px;
+    width: 75px;
+}  
